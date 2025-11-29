@@ -1,0 +1,16 @@
+{
+	"name": "ds_product",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_musa_db",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SalesLT",
+			"table": "Product"
+		}
+	}
+}
